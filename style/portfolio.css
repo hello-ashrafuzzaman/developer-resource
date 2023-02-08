@@ -110,8 +110,7 @@ main {
 
 /* What I do style */
 .whati_do {
-  padding: 130px 150px;
-  border-radius: 10px;
+ margin: 130px 0;
 }
 .skills_container{
   display: flex;
@@ -239,5 +238,5 @@ footer{
   background-color: #fd6e0a;
   text-align: center;
   color: white;
-  padding: 80px;
+  padding: 40px;
 }
