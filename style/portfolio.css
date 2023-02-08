@@ -4,18 +4,18 @@
 }
 
 /* header and nav css  */
-.header{
-  
-    background:#FFF8F3;
-    background-image: url(../assets/images/header_bg.png), url(../assets/images/developer.png);
-    background-repeat: no-repeat;
-    background-position: bottom right , left;
+.header {
+  background: #fff8f3;
+  background-image: url(../assets/images/header_bg.png),
+    url(../assets/images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
 }
 nav {
   display: flex;
   justify-content: space-between;
   margin: 0 200px;
-  background:#FFF8F3;
+  background: #fff8f3;
   padding: 50px;
 }
 .nav_titel {
@@ -61,57 +61,78 @@ nav li {
   font-size: 45px;
   margin-bottom: 5px;
 }
-.banner_discription{
-    color: #757575;
-    font-size: 18px;
-    margin-bottom: 30px;
+.banner_discription {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 /* main section */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 /* about section */
-.about{
-    text-align: center;
-    margin-top: 130px;
-    background-color: #FFF8F3;
-    padding: 130px 150px ;
-    border-radius: 10px;
+.about {
+  text-align: center;
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 130px 150px;
+  border-radius: 10px;
 }
-.section_title{
- 
- font-weight: 700;
- font-size: 35px;
- margin-bottom: 30px;
+.section_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
-.sec_ab_discrip{
-color: #757575;
-font-size: 18px;
-margin-bottom: 30px
-}
-
-/* table{
-    align-items: center;
-} */
-
-.about_info_container{
-    display: flex;
-    justify-content: space-around;
-
-}
-.info{
-    font-size: 20px;
-    color: #757575;
-    
-}
-.discription{
-    font-weight: 700;
-    font-size: 20px;
-    color: #474747;
-}
-.about_info{
-
+.sec_ab_discrip {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
+.about_info_container {
+  display: flex;
+  justify-content: space-around;
+}
+.info {
+  font-size: 20px;
+  color: #757575;
+}
+.discription {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+.about_info {
+}
+
+/* What I do style */
+.whati_do {
+  padding: 130px 150px;
+  border-radius: 10px;
+}
+.skills_container{
+  display: flex;
+  gap: 24px;
+}
+.skill_title{
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill_discription{
+  font-size: 16px;
+  color: #757575;
+
+}
+
+.skill{
+background-color: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+
+}
