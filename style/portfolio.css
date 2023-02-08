@@ -136,3 +136,36 @@ border-radius: 5px;
 padding: 30px;
 
 }
+
+/* resume Content  Design */
+.resume_content{
+  display: flex;
+  gap: 24px;
+}
+
+.resume_item{
+margin-bottom: 30px;
+margin-top: 30px;
+}
+.resume_title{
+font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+}
+.Resume_sub_title{
+color: #757575;
+font-weight: 600;
+font-size: 20px;
+margin-bottom: 20px;
+}
+.Resume_Discripsion{
+  color: #757575;
+}
+
+.btn_download{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 30px;
+}
